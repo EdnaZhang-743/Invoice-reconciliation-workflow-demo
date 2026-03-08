@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="mb-4">Exception Queue</h2>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Type</th>
+            <th>Reference</th>
+            <th>Issue</th>
+            <th>Status</th>
+            <th>Created At</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in exceptions %}
+        <tr>
+            <td>{{ item.id }}</td>
+            <td>{{ item.item_type }}</td>
+            <td>{{ item.reference }}</td>
+            <td>{{ item.issue }}</td>
+            <td>{{ item.status }}</td>
+            <td>{{ item.created_at }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
