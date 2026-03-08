@@ -155,17 +155,17 @@ http://127.0.0.1:5000
 
 The demo seed data includes examples of:
 
-### a fully matched payment
+- a fully matched payment
 
-### a partial payment
+- a partial payment
 
-### a payment linked to a non-existent invoice
+- a payment linked to a non-existent invoice
 
-### a payment with no invoice reference
+- a payment with no invoice reference
 
-### a duplicate payment reference
+- a duplicate payment reference
 
-### overdue unpaid invoices
+- overdue unpaid invoices
 
 This helps demonstrate both the happy path and exception handling workflows.
 
@@ -173,50 +173,50 @@ This helps demonstrate both the happy path and exception handling workflows.
 
 This project was built to demonstrate a workflow automation mindset for roles involving:
 
-### systems and process design
+- systems and process design
 
-### finance / operations automation
+- finance / operations automation
 
-### reconciliation workflows
+- reconciliation workflows
 
-### exception management
+- exception management
 
-### low-code / workflow-oriented problem solving
+- low-code / workflow-oriented problem solving
 
 Although this MVP is implemented in Flask rather than a low-code platform, it reflects the same core thinking required in automation roles:
 map the workflow, define rules, handle edge cases, test outcomes, and make operations more reliable.
 
 ## Possible Future Improvements
 
-### search and filter for invoices/payments
+- search and filter for invoices/payments
 
-### manual exception resolution actions
+- manual exception resolution actions
 
-### CSV export
+- CSV export
 
-### email reminder integration
+- email reminder integration
 
-### role-based user access
+- role-based user access
 
-### external finance system integration
+- external finance system integration
 
-### visual workflow diagram
+- visual workflow diagram
 
-### automated scheduler for reconciliation runs
+- automated scheduler for reconciliation runs
 
 ## Screenshots
 
 You can add screenshots here after running the app, for example:
 
-### Dashboard
+- Dashboard
 
-### Invoices page
+- Invoices page
 
-### Payments page
+- Payments page
 
-### Exception Queue
+- Exception Queue
 
-### Audit Logs
+- Audit Logs
 
 ## Author
 
@@ -225,3 +225,4 @@ Edna Zhang
 ## License
 
 This project is for portfolio and demonstration purposes.
+
